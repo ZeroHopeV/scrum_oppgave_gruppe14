@@ -5,7 +5,7 @@ ini_set('session.use_strict_mode', 1);
 
 session_set_cookie_params([
     'lifetime' => 28800,
-    'domain' => 'localhost',
+    'domain' => '127.0.0.1',
     'path' => '/',
     'secure' => false,
     'httponly' => true
